@@ -46,6 +46,11 @@ func main() {
 	ints := []int{12, 23, 23, 34, 45, 545, 56, 5, 6}
 	sort.Ints(ints)
 
+	// finding a word from string
+	index := sort.SearchStrings(arr, "Jolyne")
+
+	fmt.Println(index)
+
 	fmt.Println(arr)
 	fmt.Println(ints)
 
